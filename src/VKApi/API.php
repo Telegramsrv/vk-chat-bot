@@ -1,8 +1,8 @@
 <?php
 
-namespace Iillexial\VkBot\VKApi;
+namespace Iillexial\VKBot\VKApi;
+
 use GuzzleHttp\ClientInterface;
-use GuzzleHttp\Exception\TransferException;
 use GuzzleHttp\Psr7\Request;
 
 /**

@@ -2,7 +2,7 @@
     "name": "vkbot",
     "description": "...",
     "autoload": {
-        "psr-4": {"Iillexial\\VkBot\\": "src/"}
+        "psr-4": {"Iillexial\\VKBot\\": "src/"}
     },
     "require": {
         "guzzlehttp/guzzle": "^6.2"

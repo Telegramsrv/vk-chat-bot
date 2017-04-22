@@ -1,11 +1,11 @@
 <?php
 
-namespace Iillexial\VkBot\Command;
+namespace Iillexial\VKBot\Command;
 
 /**
  * Class AbstractCommand
  *
- * @package Iillexial\VkBot\Command
+ * @package Iillexial\VKBot\Command
  * @author Ivan Klymenchenko <iillexial@gmail.com>
  */
 abstract class AbstractCommand implements CommandInterface

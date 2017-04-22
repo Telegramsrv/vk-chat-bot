@@ -1,13 +1,13 @@
 <?php
 
-namespace Iillexial\VkBot;
+namespace Iillexial\VKBot;
 
-use Iillexial\VkBot\Command\CommandInterface;
+use Iillexial\VKBot\Command\CommandInterface;
 
 /**
  * Class Bot
  *
- * @package Iillexial\VkBot
+ * @package Iillexial\VKBot
  * @author Ivan Klymenchenko <iillexial@gmail.com>
  */
 final class Bot

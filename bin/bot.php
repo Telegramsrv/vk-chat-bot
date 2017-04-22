@@ -2,11 +2,11 @@
 
 require __DIR__.'/../vendor/autoload.php';
 
-use Iillexial\VkBot\Bot;
-use Iillexial\VkBot\Command\HelloCommand;
-use Iillexial\VkBot\VKApi\API;
-use Iillexial\VkBot\Http\HttpClient;
-use Iillexial\VkBot\Command\CommandInterface;
+use Iillexial\VKBot\Bot;
+use Iillexial\VKBot\Command\HelloCommand;
+use Iillexial\VKBot\VKApi\API;
+use Iillexial\VKBot\Http\HttpClient;
+use Iillexial\VKBot\Command\CommandInterface;
 
 $bot = new Bot();
 $bot->addCommand(new HelloCommand());

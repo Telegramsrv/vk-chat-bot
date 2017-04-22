@@ -1,11 +1,11 @@
 <?php
 
-namespace Iillexial\VkBot\Command;
+namespace Iillexial\VKBot\Command;
 
 /**
  * Interface CommandInterface
  *
- * @package Iillexial\VkBot\Command
+ * @package Iillexial\VKBot\Command
  * @author Ivan Klymenchenko <iillexial@gmail.com>
  */
 interface CommandInterface
