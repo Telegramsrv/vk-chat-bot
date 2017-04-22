@@ -1,6 +1,10 @@
 {
+    "name": "vkbot",
+    "description": "...",
+    "autoload": {
+        "psr-4": {"Iillexial\\VkBot\\": "src/"}
+    },
     "require": {
-        "symfony/var-dumper": "~2.6",
-        "vladkens/vk": "0.1.*"
+        "guzzlehttp/guzzle": "^6.2"
     }
 }
