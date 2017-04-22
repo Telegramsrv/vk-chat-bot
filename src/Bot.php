@@ -26,11 +26,11 @@ final class Bot
     }
 
     /**
-     * @param string $command
+     * @param CommandInterface $command
      */
     public function addCommand($command)
     {
-        $this->commandStack[] = new $command;
+        $this->commandStack[] = $command;
     }
 
     /**
