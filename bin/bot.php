@@ -12,9 +12,7 @@ $bot = new Bot();
 $bot->addCommand(new HelloCommand());
 
 $vkApi = new API(new HttpClient());
-$vkApi->setAccessToken(
-    '72a1988d42efbb577ad9266ba78313449bf6f991de4c1f91d0db7a35cd9075f09be681d2b5a5388597c64'
-);
+$vkApi->setAccessToken('');
 
 $messages = $vkApi->method('messages.get', [
     'count' => 10
